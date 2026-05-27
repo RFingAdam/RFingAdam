@@ -48,6 +48,10 @@ catalog + installer + bolt-on for private MCPs. **Start here.**
 | Project | What it does |
 |---|---|
 | [VPN-AP](https://github.com/RFingAdam/VPN-AP) | Raspberry-Pi travel router with VPN for secure hotel internet. |
+| [ESP32-DIV](https://github.com/RFingAdam/ESP32-DIV) | ESP32 multi-purpose wireless testing toolkit. |
+| [helium-weather-station](https://github.com/RFingAdam/helium-weather-station) | Battery / solar LoRa weather station on the Helium Network. |
+| [claude-skill-homeassistant](https://github.com/RFingAdam/claude-skill-homeassistant) | Claude Code skill for managing Home Assistant workflows. |
+| [BMO](https://github.com/RFingAdam/BMO) | Local AI companion. |
 
 ## Links
 

@@ -10,10 +10,11 @@ integration, and AI-driven engineering workflows.
 
 ## Engineering MCP toolkit
 
-An open-source toolkit (15 [Model Context Protocol](https://modelcontextprotocol.io)
-servers + a flagship Python/Rust transmission-line calculator) that
-lets AI agents drive RF, EMC, PCB, EM-simulation, circuit-simulation,
-and lab-instrument workflows end-to-end. All AGPL-3.0-or-later.
+An open-source toolkit of 15 [Model Context Protocol](https://modelcontextprotocol.io)
+servers (14 public), including the flagship Python/Rust transmission-line
+calculator `lineforge`, that lets AI agents drive RF, EMC, PCB,
+EM-simulation, circuit-simulation, and lab-instrument workflows
+end-to-end. All AGPL-3.0-or-later.
 
 → **[eng-mcp-suite](https://github.com/RFingAdam/eng-mcp-suite)** —
 catalog + installer + bolt-on for private MCPs. **Start here.**

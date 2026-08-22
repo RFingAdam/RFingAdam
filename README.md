@@ -1,4 +1,4 @@
-# Adam Engelbrecht — RF Engineer III
+# Adam Engelbrecht: RF Engineer III
 
 6+ years designing antennas and RF front-ends for embedded wireless
 platforms. Currently focused on multi-radio coexistence, custom antenna
@@ -16,7 +16,7 @@ calculator `lineforge`, that lets AI agents drive RF, EMC, PCB,
 EM-simulation, circuit-simulation, lab-instrument, and requirements
 workflows end-to-end. The public servers are AGPL-3.0-or-later.
 
-→ **[eng-mcp-suite](https://github.com/RFingAdam/eng-mcp-suite)** —
+→ **[eng-mcp-suite](https://github.com/RFingAdam/eng-mcp-suite)**:
 catalog + installer + bolt-on for private MCPs. **Start here.**
 
 | Domain | Tool |
@@ -40,8 +40,8 @@ catalog + installer + bolt-on for private MCPs. **Start here.**
 
 | Tool | What it does |
 |---|---|
-| [RFlect](https://github.com/RFingAdam/RFlect) | Antenna visualization — chamber measurements, VNA S-parameters, 2D/3D gain patterns, TRP, S11 / VSWR. |
-| [gnss-toolkit](https://github.com/RFingAdam/gnss-toolkit) | GNSS receiver evaluation — NMEA capture, AT-command control, TTFF and CEP₅₀ / CEP₉₅ / RMS error analytics. |
+| [RFlect](https://github.com/RFingAdam/RFlect) | Antenna visualization: chamber measurements, VNA S-parameters, 2D/3D gain patterns, TRP, S11 / VSWR. |
+| [gnss-toolkit](https://github.com/RFingAdam/gnss-toolkit) | GNSS receiver evaluation: NMEA capture, AT-command control, TTFF and CEP₅₀ / CEP₉₅ / RMS error analytics. |
 | [rf-interference-calculator](https://github.com/RFingAdam/rf-interference-calculator) | RF spectrum interference and IMD / harmonics analyzer. |
 
 ## Other

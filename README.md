@@ -28,12 +28,10 @@ coexistence, and test automation — VNA, chamber, and EMC.
 | [Siliconsmith](https://github.com/RFingAdam/siliconsmith) | Tiny Tapeout chip-design MCP: RTL, tests, and sky130 synthesis. |
 | [mcp-remote-access](https://github.com/RFingAdam/mcp-remote-access) | SSH and serial access to benches and embedded targets. |
 
-### Streaming and tools
+### Tools
 
 | Project | What it is |
 |---|---|
-| [Haven Deck](https://github.com/RFingAdam/haven-deck) | DIY touchscreen stream deck for a Raspberry Pi, tablet, or browser. |
-| [Tactical Deck](https://github.com/RFingAdam/tactical-deck) | Game-reactive stream soundboard with stingers and an OCR kill-feed HUD. |
 | [Rushcut](https://github.com/RFingAdam/rushcut) | Editor-agnostic AI video editing over MCP (FFmpeg, VEGAS Pro, DaVinci Resolve). |
 | [Meshwire](https://github.com/RFingAdam/meshwire) | Blender MCP server for modeling, animation, and MSFS content. |
 | [agentarchy](https://github.com/RFingAdam/agentarchy) | Arch + KDE Plasma 6 distro with an agent-first engineering runtime. |
@@ -43,5 +41,3 @@ coexistence, and test automation — VNA, chamber, and EMC.
 
 - Portfolio: [rfpro.dev](https://rfpro.dev/)
 - LinkedIn: [adamengelbrecht1](https://www.linkedin.com/in/adamengelbrecht1/)
-- Twitch: [SwampBewdy](https://www.twitch.tv/swampbewdy)
-- YouTube: [SwampBewdy](https://www.youtube.com/@SwampBewdy)

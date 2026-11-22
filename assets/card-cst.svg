@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 200" role="img" aria-labelledby="t-card-cst d-card-cst">
+  <title id="t-card-cst">CST Studio MCP — Antenna design, RF simulation, and PCB.</title>
+  <desc id="d-card-cst">Project card with a literal icon, title, and tagline.</desc>
+  
+    <rect width="440" height="200" rx="12" fill="#152033"/>
+    <rect x="1" y="1" width="438" height="198" rx="11" fill="none" stroke="#2dd4bf" stroke-opacity="0.22" stroke-width="1.2"/>
+    <g transform="translate(24, 18) scale(1.35)">
+      
+    <g fill="none" stroke="#2dd4bf" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M8 30 H22 L36 16 H56 L56 48 H36 L22 34 H8 Z"/>
+      <line x1="36" y1="16" x2="36" y2="48" opacity=".55" stroke-width="1.6"/>
+    </g>
+    
+    </g>
+    <text x="28" y="148" font-family="Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="600" fill="#f8fafc">CST Studio MCP</text>
+    <text x="28" y="176" font-family="Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" fill="#c17f59">Antenna design, RF simulation, and PCB.</text>
+    
+</svg>

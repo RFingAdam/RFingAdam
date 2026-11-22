@@ -1,36 +1,26 @@
 # README SVG kit
 
-Self-hosted artwork for [RFingAdam](https://github.com/RFingAdam) profile and project READMEs.
+Self-hosted artwork for the [RFingAdam](https://github.com/RFingAdam) profile README, and a reusable project-header template.
 
-The motif is a Smith chart plus a VNA-style sweep trace, in an iron-and-copper palette. Files are static SVG in this folder — no third-party render services, no runtime badge URLs.
-
-These drawings are decorative. They are not measurements.
+The brand anchor is the official [rfpro.dev](https://rfpro.dev) Smith-chart mark (a two-step L-match into 50 Ω) and that site’s palette: navy `#0f172a`, teal `#2dd4bf`, copper `#c17f59`. Files are static SVG in this folder — no third-party render services.
 
 ## Files
 
 | File | Use |
 |---|---|
-| `header-profile-dark.svg` / `header-profile-light.svg` | Profile README banner. Pair them with a `<picture>` element so GitHub can follow the reader’s color scheme. |
+| `logo.svg` | Official mark, transparent background. |
+| `logo-badge.svg` | Official mark on a navy disc (favicon-style). |
+| `header-profile-dark.svg` / `header-profile-light.svg` | Profile banner. Pair with a `<picture>` element. |
 | `header-project-dark.svg` / `header-project-light.svg` | Reusable project-README banner. Edit the `PROJECT` and `TAGLINE` text nodes. |
-| `divider.svg` | Section rule. Transparent background; mid-tone copper on both GitHub themes. |
-| `icon-mark.svg` | Kit emblem. |
-| `icon-smith.svg`, `icon-wave.svg`, `icon-antenna.svg`, `icon-mcp.svg` | Small section icons. Transparent background. |
+| `card-*.svg` | Profile project cards. Same size, one literal icon each. |
 
 ## Project header
 
-1. Copy `header-project-dark.svg` and `header-project-light.svg` into the project repo’s `assets/` folder.
-2. Change the two text elements with `id="PROJECT"` and `id="TAGLINE"`. Keep the palette and the Smith / sweep motif.
-3. Wire them at the top of the project README the same way as the profile header (`<picture>` + `alt`).
-
-## Palette
-
-- Iron background (dark): `#14110E` / panel `#1C1914`
-- Paper background (light): `#F3EEE6` / panel `#EBE4D8`
-- Copper: `#C67A3A` (dark accent `#E09A55`, light accent `#9A5624`)
-- Amber locus (dark): `#E8B84A`
-- Marker: `#D94B2B` (light `#C43A22`)
-- Steel labels: `#8F877C` (light `#5E574C`)
+1. Copy the `header-project-*.svg` pair into the project repo’s `assets/` folder.
+2. Change the text elements with `id="PROJECT"` and `id="TAGLINE"`.
+3. Optionally swap the logo for that project’s own mark, keeping the typography and navy/teal/copper palette.
+4. Wire them at the top of the project README with a `<picture>` element and short `alt` text.
 
 ## Accessibility
 
-Every SVG has `role="img"`, a `<title>`, and a `<desc>`. When you embed one, keep a short `alt` on the `<img>` (or an empty `alt` on the purely decorative divider).
+Every SVG has `role="img"`, a `<title>`, and a `<desc>`. Keep a short `alt` on the `<img>` when you embed one.

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 200" role="img" aria-labelledby="t-card-ltspice d-card-ltspice">
+  <title id="t-card-ltspice">LTspice / Qucs-S MCP — MCP server for circuit simulation and Touchstone.</title>
+  <desc id="d-card-ltspice">Project card with a literal icon, title, and tagline.</desc>
+  
+    <rect width="440" height="200" rx="12" fill="#152033"/>
+    <rect x="1" y="1" width="438" height="198" rx="11" fill="none" stroke="#2dd4bf" stroke-opacity="0.22" stroke-width="1.2"/>
+    <g transform="translate(24, 18) scale(1.35)">
+      
+    <g fill="none" stroke="#2dd4bf" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M6 22 H14"/>
+      <line x1="14" y1="15" x2="14" y2="29" stroke-width="2.6"/>
+      <line x1="19" y1="17" x2="19" y2="27" stroke-width="1.7"/>
+      <path d="M19 22 H26"/>
+      <path d="M26 22 L29 14 L33 30 L37 14 L41 30 L45 22"/>
+      <path d="M45 22 H52 V38"/>
+      <line x1="44" y1="38" x2="60" y2="38"/>
+      <line x1="44" y1="44" x2="60" y2="44"/>
+      <path d="M52 44 V50"/>
+      <line x1="42" y1="50" x2="62" y2="50" stroke-width="2.2"/>
+      <line x1="45" y1="54" x2="59" y2="54" stroke-width="1.8"/>
+      <line x1="48" y1="58" x2="56" y2="58" stroke-width="1.5"/>
+    </g>
+    
+    </g>
+    <text x="28" y="148" font-family="Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="600" fill="#f8fafc">LTspice / Qucs-S MCP</text>
+    <text x="28" y="176" font-family="Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" fill="#c17f59">MCP server for circuit simulation and Touchstone.</text>
+    
+</svg>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 200" role="img" aria-labelledby="t-card-meshwire d-card-meshwire">
+  <title id="t-card-meshwire">Meshwire — Blender MCP for 3D and MSFS content.</title>
+  <desc id="d-card-meshwire">Project card with a literal icon, title, and tagline.</desc>
+  
+    <rect width="440" height="200" rx="12" fill="#152033"/>
+    <rect x="1" y="1" width="438" height="198" rx="11" fill="none" stroke="#2dd4bf" stroke-opacity="0.22" stroke-width="1.2"/>
+    <g transform="translate(24, 18) scale(1.35)">
+      
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 26 V44 H36" stroke="#2dd4bf" stroke-width="1.2" stroke-dasharray="1.5 3.5" opacity=".55"/>
+      <path d="M12 32 H32 V50 H12 Z" stroke="#2dd4bf" stroke-width="2.2"/>
+      <path d="M12 32 L20 22 H40 L32 32 M40 22 V40 L32 50" stroke="#2dd4bf" stroke-width="2.2"/>
+      <path d="M32 50 C38 50 40 56 48 56" stroke="#fbbf24" stroke-width="2.2"/>
+    </g>
+    <g fill="#f8fafc">
+      <circle cx="12" cy="32" r="2.3"/><circle cx="32" cy="32" r="2.3"/>
+      <circle cx="12" cy="50" r="2.3"/><circle cx="32" cy="50" r="2.3"/>
+      <circle cx="20" cy="22" r="2.3"/><circle cx="40" cy="22" r="2.3"/>
+      <circle cx="40" cy="40" r="2.3"/>
+    </g>
+    <circle cx="48" cy="56" r="3.2" fill="#fbbf24"/>
+    
+    </g>
+    <text x="28" y="148" font-family="Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="600" fill="#f8fafc">Meshwire</text>
+    <text x="28" y="176" font-family="Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" fill="#c17f59">Blender MCP for 3D and MSFS content.</text>
+    
+</svg>

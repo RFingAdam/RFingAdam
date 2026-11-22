@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 200" role="img" aria-labelledby="t-card-openems d-card-openems">
+  <title id="t-card-openems">openEMS MCP — 3D FDTD for antennas and RF structures.</title>
+  <desc id="d-card-openems">Project card with a literal icon, title, and tagline.</desc>
+  
+    <rect width="440" height="200" rx="12" fill="#152033"/>
+    <rect x="1" y="1" width="438" height="198" rx="11" fill="none" stroke="#2dd4bf" stroke-opacity="0.22" stroke-width="1.2"/>
+    <g transform="translate(24, 18) scale(1.35)">
+      
+    <g fill="none" stroke="#2dd4bf" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="8" y="10" width="48" height="44" rx="3" stroke-width="1.8" stroke-dasharray="3.5 3"/>
+      <line x1="20" y1="32" x2="29" y2="32" stroke-width="2.4"/>
+      <line x1="35" y1="32" x2="44" y2="32" stroke-width="2.4"/>
+      <line x1="32" y1="32" x2="32" y2="44" stroke-width="1.8"/>
+      <circle cx="32" cy="32" r="2.2" fill="#2dd4bf" stroke="none"/>
+    </g>
+    
+    </g>
+    <text x="28" y="148" font-family="Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="600" fill="#f8fafc">openEMS MCP</text>
+    <text x="28" y="176" font-family="Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" fill="#c17f59">3D FDTD for antennas and RF structures.</text>
+    
+</svg>

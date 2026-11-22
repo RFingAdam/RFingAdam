@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 200" role="img" aria-labelledby="t-card-drawio d-card-drawio">
+  <title id="t-card-drawio">Draw.io Engineering MCP — RF and PCB diagrams from an MCP server.</title>
+  <desc id="d-card-drawio">Project card with a literal icon, title, and tagline.</desc>
+  
+    <rect width="440" height="200" rx="12" fill="#152033"/>
+    <rect x="1" y="1" width="438" height="198" rx="11" fill="none" stroke="#2dd4bf" stroke-opacity="0.22" stroke-width="1.2"/>
+    <g transform="translate(24, 18) scale(1.35)">
+      
+    <g fill="none" stroke="#2dd4bf" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="8" y="10" width="20" height="14" rx="2.5"/>
+      <rect x="36" y="10" width="20" height="14" rx="2.5"/>
+      <rect x="22" y="40" width="20" height="14" rx="2.5"/>
+      <path d="M28 24 V30 H18 V40"/>
+      <path d="M36 24 V30 H46 V40"/>
+    </g>
+    
+    </g>
+    <text x="28" y="148" font-family="Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="600" fill="#f8fafc">Draw.io Engineering MCP</text>
+    <text x="28" y="176" font-family="Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" fill="#c17f59">RF and PCB diagrams from an MCP server.</text>
+    
+</svg>

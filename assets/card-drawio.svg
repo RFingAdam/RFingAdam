@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 200" role="img" aria-labelledby="t-card-drawio d-card-drawio">
-  <title id="t-card-drawio">Draw.io Engineering — RF and PCB diagrams from an MCP server.</title>
+  <title id="t-card-drawio">Draw.io Engineering MCP — RF and PCB diagrams from an MCP server.</title>
   <desc id="d-card-drawio">Project card with a literal icon, title, and tagline.</desc>
   
     <rect width="440" height="200" rx="12" fill="#152033"/>
@@ -16,7 +16,7 @@
     </g>
     
     </g>
-    <text x="28" y="148" font-family="Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="600" fill="#f8fafc">Draw.io Engineering</text>
+    <text x="28" y="148" font-family="Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="600" fill="#f8fafc">Draw.io Engineering MCP</text>
     <text x="28" y="176" font-family="Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" fill="#c17f59">RF and PCB diagrams from an MCP server.</text>
     
 </svg>

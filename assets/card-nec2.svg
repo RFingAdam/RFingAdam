@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 200" role="img" aria-labelledby="t-card-nec2 d-card-nec2">
-  <title id="t-card-nec2">NEC2 Antenna — Dipoles, Yagis, verticals, and loops.</title>
+  <title id="t-card-nec2">NEC2 Antenna MCP — Dipoles, Yagis, verticals, and loops.</title>
   <desc id="d-card-nec2">Project card with a literal icon, title, and tagline.</desc>
   
     <rect width="440" height="200" rx="12" fill="#152033"/>
@@ -16,7 +16,7 @@
     <circle cx="32" cy="32" r="2.4" fill="#2dd4bf"/>
     
     </g>
-    <text x="28" y="148" font-family="Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="600" fill="#f8fafc">NEC2 Antenna</text>
+    <text x="28" y="148" font-family="Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="600" fill="#f8fafc">NEC2 Antenna MCP</text>
     <text x="28" y="176" font-family="Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" fill="#c17f59">Dipoles, Yagis, verticals, and loops.</text>
     
 </svg>

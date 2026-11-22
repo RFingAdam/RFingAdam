@@ -19,7 +19,7 @@ coexistence, and test automation — VNA, chamber, and EMC.
       <a href="https://github.com/RFingAdam/meshwire"><img src="assets/card-meshwire.svg" width="100%" alt="Meshwire — Blender MCP for modeling, animation, and MSFS content" /></a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/RFingAdam/drawio-engineering-mcp"><img src="assets/card-drawio.svg" width="100%" alt="Draw.io Engineering — engineering diagrams over MCP" /></a>
+      <a href="https://github.com/RFingAdam/drawio-engineering-mcp"><img src="assets/card-drawio.svg" width="100%" alt="Draw.io Engineering MCP — RF and PCB diagrams from an MCP server" /></a>
     </td>
   </tr>
 </table>
@@ -49,7 +49,7 @@ coexistence, and test automation — VNA, chamber, and EMC.
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/RFingAdam/mcp-ltspice-qucs"><img src="assets/card-ltspice.svg" width="100%" alt="LTspice and Qucs-S MCP — RF circuit and system simulation" /></a>
+      <a href="https://github.com/RFingAdam/mcp-ltspice-qucs"><img src="assets/card-ltspice.svg" width="100%" alt="LTspice / Qucs-S MCP — MCP server for circuit simulation and Touchstone" /></a>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/RFingAdam/mcp-nec2-antenna"><img src="assets/card-nec2.svg" width="100%" alt="NEC2 Antenna MCP — wire-antenna method-of-moments" /></a>

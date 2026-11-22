@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="t-icon-mcp d-icon-mcp">
+  <title id="t-icon-mcp">Tooling-node icon</title>
+  <desc id="d-icon-mcp">Three connected nodes: a compact mark for MCP and other tool-server projects.</desc>
+  
+    <style>
+      .sweep-marker { transform-box: fill-box; transform-origin: center; }
+      @media (prefers-reduced-motion: no-preference) {
+        .sweep-marker { animation: tick 5.5s ease-in-out infinite; }
+      }
+      @keyframes tick {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.45; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .sweep-marker { animation: none; opacity: 1; }
+      }
+    </style>
+    
+  <rect width="64" height="64" fill="none"/>
+
+        <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="32" y1="22" x2="18" y2="42" stroke="#8A8074" stroke-width="1.5"/>
+          <line x1="32" y1="22" x2="46" y2="42" stroke="#8A8074" stroke-width="1.5"/>
+          <line x1="18" y1="42" x2="46" y2="42" stroke="#8A8074" stroke-width="1.5"/>
+          <circle cx="32" cy="20" r="7" stroke="#C67A3A" stroke-width="1.8"/>
+          <rect x="10" y="36" width="16" height="14" rx="3" stroke="#C67A3A" stroke-width="1.8"/>
+          <rect x="38" y="36" width="16" height="14" rx="3" stroke="#C67A3A" stroke-width="1.8"/>
+        </g>
+        
+</svg>

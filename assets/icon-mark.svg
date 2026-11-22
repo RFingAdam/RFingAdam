@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="t-icon-mark d-icon-mark">
+  <title id="t-icon-mark">Kit mark</title>
+  <desc id="d-icon-mark">The kit emblem: a Smith unit circle with a short copper locus.</desc>
+  
+    <style>
+      .sweep-marker { transform-box: fill-box; transform-origin: center; }
+      @media (prefers-reduced-motion: no-preference) {
+        .sweep-marker { animation: tick 5.5s ease-in-out infinite; }
+      }
+      @keyframes tick {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.45; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .sweep-marker { animation: none; opacity: 1; }
+      }
+    </style>
+    
+  <rect width="64" height="64" fill="none"/>
+
+        <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="32" cy="32" r="21" stroke="#C67A3A" stroke-width="1.8"/>
+          <circle cx="39" cy="32" r="10.5" stroke="#8A8074" stroke-width="1.2"/>
+          <line x1="11" y1="32" x2="53" y2="32" stroke="#8A8074" stroke-width="1"/>
+          <path d="M16 40 C24 16, 40 18, 46 30" stroke="#C67A3A" stroke-width="2"/>
+          <circle cx="44" cy="28" r="2.2" fill="#C67A3A" stroke="#C67A3A"/>
+        </g>
+        
+</svg>

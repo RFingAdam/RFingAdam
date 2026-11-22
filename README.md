@@ -1,3 +1,10 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/header-profile-light.svg">
+    <img src="assets/header-profile-dark.svg" width="100%" alt="Adam Engelbrecht, RF Engineer III in Milwaukee. Decorative Smith chart and VNA-style sweep header.">
+  </picture>
+</p>
+
 # Adam Engelbrecht
 
 **RF Engineer III** · Milwaukee
@@ -8,7 +15,9 @@ coexistence, and test automation — VNA, chamber, and EMC.
 
 [rfpro.dev](https://rfpro.dev/) · [LinkedIn](https://www.linkedin.com/in/adamengelbrecht1/)
 
----
+<p align="center">
+  <img src="assets/divider.svg" width="100%" alt="">
+</p>
 
 ## Selected public projects
 
@@ -36,6 +45,10 @@ coexistence, and test automation — VNA, chamber, and EMC.
 | [Meshwire](https://github.com/RFingAdam/meshwire) | Blender MCP server for modeling, animation, and MSFS content. |
 | [agentarchy](https://github.com/RFingAdam/agentarchy) | Arch + KDE Plasma 6 distro with an agent-first engineering runtime. |
 | [VPN-AP](https://github.com/RFingAdam/VPN-AP) | Raspberry Pi travel router with VPN for hotel internet. |
+
+<p align="center">
+  <img src="assets/divider.svg" width="100%" alt="">
+</p>
 
 ## Links
 

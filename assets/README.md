@@ -2,7 +2,7 @@
 
 Self-hosted artwork for the [RFingAdam](https://github.com/RFingAdam) profile README, and a reusable project-header template.
 
-The brand anchor is the official [rfpro.dev](https://rfpro.dev) Smith-chart mark (a two-step L-match into 50 Ω) and that site’s palette: navy `#0f172a`, teal `#2dd4bf`, copper `#c17f59`. Files are static SVG in this folder — no third-party render services.
+The brand anchor is the official [rfpro.dev](https://rfpro.dev) Smith-chart mark — a 50-ohm immittance L-match from load z_L = 0.5 + j2.0 (25 + j100 Ω): series C along r = 0.5 to z_1 = 0.5 + j0.5 (y_1 = 1 − j1), then shunt C along dashed g = 1.0 into 50 Ω (Γ = 0). Palette: navy `#0f172a`, teal `#2dd4bf`, copper `#c17f59`. Files are static SVG in this folder — no third-party render services.
 
 ## Files
 

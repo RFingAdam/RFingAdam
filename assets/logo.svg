@@ -1,28 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="t-logo d-logo">
   <title id="t-logo">rfpro.dev mark</title>
-  <desc id="d-logo">Official Smith-chart mark: a two-step L-match into 50 ohms, in teal and copper.</desc>
-  
-    <g>
-      
+  <desc id="d-logo">Official 50-ohm immittance Smith-chart mark in teal and copper. Load z_L = 0.5 + j2.0 (25 + j100 ohm); series C along r = 0.5 to z_1 = 0.5 + j0.5 (y_1 = 1 - j1); shunt C along g = 1.0 into 50 ohm.</desc>
+  <svg viewBox="0 0 1024 1024" x="0" y="0" width="100" height="100">
     <defs>
-      <clipPath id="logo-clip"><circle cx="50" cy="50" r="45"/></clipPath>
+      <mask id="chartMask-logo" maskUnits="userSpaceOnUse"
+            x="0" y="0" width="1024" height="1024">
+        <path fill="#ffffff" fill-rule="evenodd" d="M 974.848 512 A 462.848 462.848 0 1 1 49.152 512 A 462.848 462.848 0 1 1 974.848 512 Z M 782.8908 210.5344 A 25.95 25.95 0 1 1 730.9908 210.5344 A 25.95 25.95 0 1 1 782.8908 210.5344 Z"/>
+      </mask>
     </defs>
-    <g clip-path="url(#logo-clip)" fill="none" stroke="#2dd4bf" stroke-width="0.70" opacity="0.28">
-      <circle cx="57.5" cy="50" r="37.5"/>
-      <circle cx="72.5" cy="50" r="22.5"/>
-      <circle cx="95" cy="5" r="45"/>
-      <circle cx="95" cy="95" r="45"/>
-      <line x1="5" y1="50" x2="95" y2="50"/>
+    <g mask="url(#chartMask-logo)">
+      <g fill="none" stroke-linecap="butt" stroke-linejoin="round">
+        <line x1="40.96" y1="512" x2="983.04" y2="512" stroke="#2dd4bf" opacity="0.28" stroke-width="4.9152"/>
+        <circle cx="590.5067" cy="512" r="392.5333" fill="none" stroke="#2dd4bf" opacity="0.28" stroke-width="4.9152"/>
+        <circle cx="669.0133" cy="512" r="314.0267" fill="none" stroke="#2dd4bf" opacity="0.28" stroke-width="4.9152"/>
+        <circle cx="747.52" cy="512" r="235.52" fill="none" stroke="#2dd4bf" opacity="0.36" stroke-width="5.6525"/>
+        <circle cx="826.0267" cy="512" r="157.0133" fill="none" stroke="#2dd4bf" opacity="0.28" stroke-width="4.9152"/>
+        <path d="M 229.376 135.168 A 942.08 942.08 0 0 0 983.04 512" fill="none" stroke="#2dd4bf" stroke-width="4.9152" stroke-linecap="butt" opacity="0.28"/>
+        <path d="M 229.376 888.832 A 942.08 942.08 0 0 1 983.04 512" fill="none" stroke="#2dd4bf" stroke-width="4.9152" stroke-linecap="butt" opacity="0.28"/>
+        <path d="M 512 40.96 A 471.04 471.04 0 0 0 983.04 512" fill="none" stroke="#2dd4bf" stroke-width="4.9152" stroke-linecap="butt" opacity="0.28"/>
+        <path d="M 512 983.04 A 471.04 471.04 0 0 1 983.04 512" fill="none" stroke="#2dd4bf" stroke-width="4.9152" stroke-linecap="butt" opacity="0.28"/>
+        <path d="M 794.624 135.168 A 235.52 235.52 0 0 0 983.04 512" fill="none" stroke="#2dd4bf" stroke-width="4.9152" stroke-linecap="butt" opacity="0.28"/>
+        <path d="M 794.624 888.832 A 235.52 235.52 0 0 1 983.04 512" fill="none" stroke="#2dd4bf" stroke-width="4.9152" stroke-linecap="butt" opacity="0.28"/>
+        <circle cx="276.48" cy="512" r="235.52" fill="none" stroke="#2dd4bf" opacity="0.46" stroke-width="5.161" stroke-dasharray="14 11"/>
+      </g>
+      <path d="M 756.9408 210.5344 A 314.0267 314.0267 0 0 0 417.792 323.584 A 235.52 235.52 0 0 1 512 512" fill="none" stroke="#2dd4bf" stroke-width="23.552" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
     </g>
-    <circle cx="50" cy="50" r="45" fill="none" stroke="#2dd4bf" stroke-width="1.60" opacity="0.78"/>
-    <path d="M 68 14 A 37.5 37.5 0 0 1 27.5 27.5" fill="none" stroke="#2dd4bf" stroke-width="1.80" opacity="0.95"/>
-    <path d="M 27.5 27.5 A 22.5 22.5 0 0 0 50 50" fill="none" stroke="#2dd4bf" stroke-width="1.80" opacity="0.95"/>
-    <circle cx="68" cy="14" r="3.60" fill="none" stroke="#c17f59" stroke-width="1.70"/>
-    <circle cx="27.5" cy="27.5" r="2.80" fill="#c17f59"/>
-    <circle cx="50" cy="50" r="3.40" fill="#2dd4bf"/>
-    <circle cx="50" cy="50" r="1.25" fill="#f8fafc"/>
-    
-    </g>
-    
+    <circle cx="512" cy="512" r="471.04" fill="none" stroke="#2dd4bf" opacity="0.78" stroke-width="16.384"/>
+    <circle cx="756.9408" cy="210.5344" r="34.304" fill="none" stroke="#c17f59" stroke-width="17.408"/>
+    <circle cx="417.792" cy="323.584" r="30.72" fill="#c17f59" stroke="none"/>
+    <circle cx="512" cy="512" r="38.7072" fill="#2dd4bf" stroke="none"/>
+    <circle cx="512" cy="512" r="14.2306" fill="#f8fafc" stroke="none"/>
+  </svg>
 </svg>

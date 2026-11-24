@@ -1,44 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 200" role="img" aria-labelledby="t-profile-dark d-profile-dark">
   <title id="t-profile-dark">Adam Engelbrecht — RF Engineer III, Milwaukee</title>
-  <desc id="d-profile-dark">Profile banner with the official rfpro.dev Smith-chart logo, name, and role.</desc>
-  
-    <defs>
-      <clipPath id="bannerClip-dark"><rect width="960" height="200" rx="16"/></clipPath>
-    </defs>
-    <g clip-path="url(#bannerClip-dark)">
-      <rect width="960" height="200" fill="#0f172a"/>
-      <rect width="960" height="4" fill="#2dd4bf"/>
-    </g>
-    
-        <g transform="translate(40,36)">
-          <circle cx="64" cy="64" r="63" fill="none" stroke="#2dd4bf" stroke-width="1.6" opacity="0.55"/>
-          <g transform="translate(64,64) scale(1.12) translate(-50,-50)">
-            
-    <defs>
-      <clipPath id="hdr-dark-clip"><circle cx="50" cy="50" r="45"/></clipPath>
-    </defs>
-    <g clip-path="url(#hdr-dark-clip)" fill="none" stroke="#2dd4bf" stroke-width="0.70" opacity="0.28">
-      <circle cx="57.5" cy="50" r="37.5"/>
-      <circle cx="72.5" cy="50" r="22.5"/>
-      <circle cx="95" cy="5" r="45"/>
-      <circle cx="95" cy="95" r="45"/>
-      <line x1="5" y1="50" x2="95" y2="50"/>
-    </g>
-    <circle cx="50" cy="50" r="45" fill="none" stroke="#2dd4bf" stroke-width="1.60" opacity="0.78"/>
-    <path d="M 68 14 A 37.5 37.5 0 0 1 27.5 27.5" fill="none" stroke="#2dd4bf" stroke-width="1.80" opacity="0.95"/>
-    <path d="M 27.5 27.5 A 22.5 22.5 0 0 0 50 50" fill="none" stroke="#2dd4bf" stroke-width="1.80" opacity="0.95"/>
-    <circle cx="68" cy="14" r="3.60" fill="none" stroke="#c17f59" stroke-width="1.70"/>
-    <circle cx="27.5" cy="27.5" r="2.80" fill="#c17f59"/>
-    <circle cx="50" cy="50" r="3.40" fill="#2dd4bf"/>
-    <circle cx="50" cy="50" r="1.25" fill="#f8fafc"/>
-    
+  <desc id="d-profile-dark">Profile banner with the official rfpro.dev 50-ohm immittance Smith-chart logo (z_L = 0.5 + j2.0 L-match), name, and role.</desc>
+  <defs>
+    <clipPath id="bannerClip-dark"><rect width="960" height="200" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#bannerClip-dark)">
+    <rect width="960" height="200" fill="#0f172a"/>
+    <rect width="960" height="4" fill="#2dd4bf"/>
+  </g>
+  <g transform="translate(40,36)">
+    <circle cx="64" cy="64" r="63" fill="none" stroke="#2dd4bf" stroke-width="1.6" opacity="0.55"/>
+    <g transform="translate(64,64) scale(1.12) translate(-50,-50)">
+      <svg viewBox="0 0 1024 1024" x="0" y="0" width="100" height="100">
+        <defs>
+          <mask id="chartMask-hdr-profile-dark" maskUnits="userSpaceOnUse"
+                x="0" y="0" width="1024" height="1024">
+            <path fill="#ffffff" fill-rule="evenodd" d="M 974.848 512 A 462.848 462.848 0 1 1 49.152 512 A 462.848 462.848 0 1 1 974.848 512 Z M 782.8908 210.5344 A 25.95 25.95 0 1 1 730.9908 210.5344 A 25.95 25.95 0 1 1 782.8908 210.5344 Z"/>
+          </mask>
+        </defs>
+        <g mask="url(#chartMask-hdr-profile-dark)">
+          <g fill="none" stroke-linecap="butt" stroke-linejoin="round">
+            <line x1="40.96" y1="512" x2="983.04" y2="512" stroke="#2dd4bf" opacity="0.28" stroke-width="4.9152"/>
+            <circle cx="590.5067" cy="512" r="392.5333" fill="none" stroke="#2dd4bf" opacity="0.28" stroke-width="4.9152"/>
+            <circle cx="669.0133" cy="512" r="314.0267" fill="none" stroke="#2dd4bf" opacity="0.28" stroke-width="4.9152"/>
+            <circle cx="747.52" cy="512" r="235.52" fill="none" stroke="#2dd4bf" opacity="0.36" stroke-width="5.6525"/>
+            <circle cx="826.0267" cy="512" r="157.0133" fill="none" stroke="#2dd4bf" opacity="0.28" stroke-width="4.9152"/>
+            <path d="M 229.376 135.168 A 942.08 942.08 0 0 0 983.04 512" fill="none" stroke="#2dd4bf" stroke-width="4.9152" stroke-linecap="butt" opacity="0.28"/>
+            <path d="M 229.376 888.832 A 942.08 942.08 0 0 1 983.04 512" fill="none" stroke="#2dd4bf" stroke-width="4.9152" stroke-linecap="butt" opacity="0.28"/>
+            <path d="M 512 40.96 A 471.04 471.04 0 0 0 983.04 512" fill="none" stroke="#2dd4bf" stroke-width="4.9152" stroke-linecap="butt" opacity="0.28"/>
+            <path d="M 512 983.04 A 471.04 471.04 0 0 1 983.04 512" fill="none" stroke="#2dd4bf" stroke-width="4.9152" stroke-linecap="butt" opacity="0.28"/>
+            <path d="M 794.624 135.168 A 235.52 235.52 0 0 0 983.04 512" fill="none" stroke="#2dd4bf" stroke-width="4.9152" stroke-linecap="butt" opacity="0.28"/>
+            <path d="M 794.624 888.832 A 235.52 235.52 0 0 1 983.04 512" fill="none" stroke="#2dd4bf" stroke-width="4.9152" stroke-linecap="butt" opacity="0.28"/>
+            <circle cx="276.48" cy="512" r="235.52" fill="none" stroke="#2dd4bf" opacity="0.46" stroke-width="5.161" stroke-dasharray="14 11"/>
           </g>
+          <path d="M 756.9408 210.5344 A 314.0267 314.0267 0 0 0 417.792 323.584 A 235.52 235.52 0 0 1 512 512" fill="none" stroke="#2dd4bf" stroke-width="23.552" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
         </g>
-        
-    <text x="196" y="82" font-family="Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="40" font-weight="600" fill="#f8fafc">Adam Engelbrecht</text>
-    <text x="196" y="116" font-family="Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="600" fill="#2dd4bf">RF Engineer III<tspan fill="#94a3b8" font-weight="500">  ·  Milwaukee</tspan></text>
-    <text x="196" y="148" font-family="Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" fill="#94a3b8">Antenna design  ·  RF front-ends  ·  Wireless systems</text>
-    <text x="920" y="148" text-anchor="end" font-family="Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="500" fill="#2dd4bf">rfpro.dev</text>
-    
+        <circle cx="512" cy="512" r="471.04" fill="none" stroke="#2dd4bf" opacity="0.78" stroke-width="16.384"/>
+        <circle cx="756.9408" cy="210.5344" r="34.304" fill="none" stroke="#c17f59" stroke-width="17.408"/>
+        <circle cx="417.792" cy="323.584" r="30.72" fill="#c17f59" stroke="none"/>
+        <circle cx="512" cy="512" r="38.7072" fill="#2dd4bf" stroke="none"/>
+        <circle cx="512" cy="512" r="14.2306" fill="#f8fafc" stroke="none"/>
+      </svg>
+    </g>
+  </g>
+  <text x="196" y="82" font-family="Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="40" font-weight="600" fill="#f8fafc">Adam Engelbrecht</text>
+  <text x="196" y="116" font-family="Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="600" fill="#2dd4bf">RF Engineer III<tspan fill="#94a3b8" font-weight="500">  ·  Milwaukee</tspan></text>
+  <text x="196" y="148" font-family="Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" fill="#94a3b8">Antenna design  ·  RF front-ends  ·  Wireless systems</text>
+  <text x="920" y="148" text-anchor="end" font-family="Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="500" fill="#2dd4bf">rfpro.dev</text>
 </svg>
